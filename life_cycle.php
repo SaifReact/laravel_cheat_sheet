@@ -1,9 +1,68 @@
-<div class="large-12 columns" style="margin-bottom: 30px;">
+// heading
+
+	<h2 style="color: #FFF; text-align: center;">Laravel Info</h2>
+    <p style="text-align: center; color: #ddd;">
+        Laravel তৈরি করেছেন Taylor Otwell। ২০১১ সালে তিনি CodeIgniter-এর মতো পুরনো PHP ফ্রেমওয়ার্কের সীমাবদ্ধতা দেখেন এবং একটি নতুন, আরও আধুনিক এবং ডেভেলপার‑বান্ধব ফ্রেমওয়ার্ক হিসেবে Laravel তৈরি করেন।      
+    </p>
+<div style="padding: 0px 30px;">
+    <table style=" color: #ddd; font-size: 14px;">
+        <thead>
+            <th>Feature / Imprvement (English)</th>
+            <th>Why It Matters ফিচার / পরিবর্তন (বাংলায়)</th>
+            <th>Why It Matters / কেন এটা গুরুত্বপূর্ণ</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>New starter kits for React, Vue, Livewire (with built‑in auth)</td>
+                <td>নতুন স্টার্টার‑কিট (React, Vue, Livewire) — built‑in authentication সহ</td>
+                <td>Makes starting a full‑stack (frontend + backend) app much easier and faster.</td>
+            </tr>
+             <tr>
+                <td>Option for a WorkOS AuthKit variant — social login, passkeys, SSO</td>
+                <td>WorkOS AuthKit ভ্যারিয়্যান্ট — সামাজিক লগিন, পাসকি, SSO সমর্থন</td>
+                <td>Good for apps needing modern, secure authentication methods without manual setup.</td>
+            </tr>
+             <tr>
+                <td>Native health‑checks (monitor app status, DB connection, queues etc.)</td>
+                <td>নেটিভ health‑checks — অ্যাপ্লিকেশনের স্থিতি, ডেটাবেস/ক্যাশ/কিউ‑প্রসেস ইত্যাদি মনিটর</td>
+                <td>Useful for production apps, especially in containerized or distributed setups.</td>
+            </tr>
+             <tr>
+                <td>Improved job batching & queue handling</td>
+                <td>উন্নত জব ব্যাচিং এবং কিউ হ্যান্ডলিং</td>
+                <td>Better control and reliability when processing background tasks (e.g. emails, jobs, batch jobs)</td>
+            </tr>
+             <tr>
+                <td>Route Attributes support (PHP 8+): define routes directly on controllers via attributes</td>
+                <td>রাউট অ্যাট্রিবিউট (PHP 8+) — কন্ট্রোলারে সরাসরি রাউট সংজ্ঞায়িত করা যায়</td>
+                <td>Leads to cleaner, more maintainable routing code.</td>
+            </tr>
+             <tr>
+                <td>Performance optimizations (faster boot time, faster route resolution, leaner runtime)</td>
+                <td>পারফরম্যান্স উন্নয়ন — দ্রুত বুট, দ্রুত রাউট রেজলিউশন, হালকা রানটাইম</td>
+                <td>Makes apps feel faster and more responsive, especially under heavy load.</td>
+            </tr>
+            <tr>
+                <td>Better developer experience — improved CLI (Artisan), fewer breaking changes, smoother upgrade path</td>
+                <td>উন্নত ডেভেলপার অভিজ্ঞতা — CLI (Artisan) উন্নত, কম ব্রেকিং পরিবর্তন, সহজ আপগ্রেড</td>
+                <td>Reduces friction when upgrading projects or setting up new ones.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    <p style="text-align: center; color: #ddd; font-size: 14px;">
+        নতুন স্টার্টার‑কিটের মাধ্যমে React/Vue/Livewire‑এর সঙ্গে সহজ ইন্টিগ্রেশন, নেটিভ হেলথ‑চেক, উন্নত কিউ/জব ম্যানেজমেন্ট এবং পারফরম্যান্স‑বুস্ট Laravel 12‑কে বেশ শক্তিশালী করে তোলে।  
+    </p>
+	<hr/>
+
+<div class="large-12 columns code-column">		
+			<div class="large-12 columns" style="margin-bottom: 30px;">
 			<h4 style="text-align: center; color: #e74c3c; margin-bottom: 20px;">
 				<a name="app-lifecycle" href="#app-lifecycle">🔄 Laravel Application Life Cycle / লারাভেল অ্যাপ্লিকেশন লাইফ সাইকেল</a>
 			</h4>
 			
 			<!-- Visual Flow Diagram -->
+            <div class="large-7 columns">
 			<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
 				<pre style="color: white; margin: 0; line-height: 1.8; font-size: 13px; font-family: 'Courier New', monospace;">
    ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
@@ -96,46 +155,48 @@
    ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 				</pre>
 			</div>
+</div>
+<div class="large-5 columns">
 
 			<!-- Detailed Explanation Grid -->
 			<div class="row">
-				<div class="large-6 columns">
+				<div class="large-12 columns">
 					<div style="background: #ecf0f1; padding: 20px; border-radius: 8px; margin-bottom: 15px; border-left: 5px solid #3498db;">
 						<h6 style="color: #2c3e50; margin-top: 0;">📖 Complete Flow Summary / সম্পূর্ণ প্রবাহ সারসংক্ষেপ</h6>
 						<p style="font-size: 13px; line-height: 1.8; color: #555;">
 							<strong>1.</strong> Request enters through <code>public/index.php</code><br>
-							<span style="color: #16a085; margin-left: 20px;">রিকোয়েস্ট <code>public/index.php</code> এর মাধ্যমে প্রবেশ করে</span><br><br>
+							<span style="color: #16a085; margin-left: 20px;">রিকোয়েস্ট <code>public/index.php</code> এর মাধ্যমে প্রবেশ করে</span><br>
 							
 							<strong>2.</strong> Application bootstraps via <code>bootstrap/app.php</code><br>
-							<span style="color: #16a085; margin-left: 20px;">অ্যাপ্লিকেশন <code>bootstrap/app.php</code> এর মাধ্যমে বুটস্ট্র্যাপ হয়</span><br><br>
+							<span style="color: #16a085; margin-left: 20px;">অ্যাপ্লিকেশন <code>bootstrap/app.php</code> এর মাধ্যমে বুটস্ট্র্যাপ হয়</span><br>
 							
 							<strong>3.</strong> HTTP Kernel handles the request<br>
-							<span style="color: #16a085; margin-left: 20px;">HTTP কার্নেল রিকোয়েস্ট হ্যান্ডেল করে</span><br><br>
+							<span style="color: #16a085; margin-left: 20px;">HTTP কার্নেল রিকোয়েস্ট হ্যান্ডেল করে</span><br>
 							
 							<strong>4.</strong> Service Providers register services<br>
-							<span style="color: #16a085; margin-left: 20px;">সার্ভিস প্রোভাইডার সেবা নিবন্ধন করে</span><br><br>
+							<span style="color: #16a085; margin-left: 20px;">সার্ভিস প্রোভাইডার সেবা নিবন্ধন করে</span><br>
 							
 							<strong>5.</strong> Router matches URL to route<br>
-							<span style="color: #16a085; margin-left: 20px;">রাউটার URL কে রাউটের সাথে মিলায়</span><br><br>
+							<span style="color: #16a085; margin-left: 20px;">রাউটার URL কে রাউটের সাথে মিলায়</span><br>
 							
 							<strong>6.</strong> Middleware filters the request<br>
-							<span style="color: #16a085; margin-left: 20px;">মিডলওয়্যার রিকোয়েস্ট ফিল্টার করে</span><br><br>
+							<span style="color: #16a085; margin-left: 20px;">মিডলওয়্যার রিকোয়েস্ট ফিল্টার করে</span><br>
 							
 							<strong>7.</strong> Controller executes logic<br>
-							<span style="color: #16a085; margin-left: 20px;">কন্ট্রোলার লজিক সম্পাদন করে</span><br><br>
+							<span style="color: #16a085; margin-left: 20px;">কন্ট্রোলার লজিক সম্পাদন করে</span><br>
 							
 							<strong>8.</strong> Model interacts with database<br>
-							<span style="color: #16a085; margin-left: 20px;">মডেল ডাটাবেসের সাথে ইন্টারঅ্যাক্ট করে</span><br><br>
+							<span style="color: #16a085; margin-left: 20px;">মডেল ডাটাবেসের সাথে ইন্টারঅ্যাক্ট করে</span><br>
 							
 							<strong>9.</strong> View renders the response<br>
-							<span style="color: #16a085; margin-left: 20px;">ভিউ রেসপন্স রেন্ডার করে</span><br><br>
+							<span style="color: #16a085; margin-left: 20px;">ভিউ রেসপন্স রেন্ডার করে</span><br>
 							
 							<strong>10.</strong> Response sent back to user<br>
 							<span style="color: #16a085; margin-left: 20px;">রেসপন্স ব্যবহারকারীর কাছে ফেরত পাঠানো হয়</span>
 						</p>
 					</div>
 				</div>
-				<div class="large-6 columns">
+				<div class="large-12 columns">
 					<div style="background: #fff3cd; padding: 20px; border-radius: 8px; margin-bottom: 15px; border-left: 5px solid #ffc107;">
 						<h6 style="color: #856404; margin-top: 0;">⚡ Key Components / মূল উপাদান</h6>
 						<ul style="font-size: 13px; line-height: 1.8; color: #555;">
@@ -149,7 +210,9 @@
 						</ul>
 					</div>
 				</div>
+                
 			</div>
+</div>
 		</div>
 
 		<!-- User Request Life Cycle from Browser -->
@@ -157,6 +220,8 @@
 			<h4 style="text-align: center; color: #2980b9; margin-bottom: 20px;">
 				<a name="user-request-lifecycle" href="#user-request-lifecycle">🌐 Laravel User Request Life Cycle from Browser / ব্রাউজার থেকে লারাভেল রিকোয়েস্ট লাইফ সাইকেল</a>
 			</h4>
+
+            <div class="large-7 columns">
 			
 			<!-- Complete Browser to Response Flow -->
 			<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 30px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
@@ -307,3 +372,173 @@
 ⏱️  TYPICAL TIME: 50-500ms / সাধারণ সময়: ৫০-৫০০ মিলিসেকেন্ড
 				</pre>
 			</div>
+</div>
+<div class="large-5 columns">
+
+			<!-- Detailed Explanation -->
+			<div class="row">
+				<div class="large-12 columns">
+					<div style="background: #ecf0f1; padding: 20px; border-radius: 8px;">
+						<h6 style="color: #2c3e50; margin-top: 0;">📝 Step-by-Step Explanation / ধাপে ধাপে ব্যাখ্যা:</h6>
+						<div style="font-size: 13px; line-height: 2; color: #333;">
+							<div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>🌐 Step 1: User Action</strong><br>
+								<span style="color: #7f8c8d;">User types URL in browser or clicks a link</span>
+								<span style="color: #16a085;">( ব্যবহারকারী ব্রাউজারে URL টাইপ করে বা লিঙ্কে ক্লিক করে )</span>
+							</div>
+							
+							<div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>🌍 Step 2: DNS Resolution</strong><br>
+								<span style="color: #7f8c8d;">Browser converts domain name to IP address</span>
+								<span style="color: #16a085;">( ব্রাউজার ডোমেইন নামকে IP ঠিকানায় রূপান্তর করে )</span>
+							</div>
+							
+							<div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>🖥️ Step 3: Web Server</strong><br>
+								<span style="color: #7f8c8d;">HTTP request reaches web server (Apache/Nginx)</span>
+								<span style="color: #16a085;">( HTTP রিকোয়েস্ট ওয়েব সার্ভারে পৌঁছায় (Apache/Nginx) )</span>
+							</div>
+							
+							<div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>📂 Step 4-10: Laravel Processing</strong><br>
+								<span style="color: #7f8c8d;">Laravel handles the request through its lifecycle</span>
+								<span style="color: #16a085;">( লারাভেল তার লাইফসাইকেলের মাধ্যমে রিকোয়েস্ট প্রসেস করে )</span>
+							</div>
+							
+							<div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>💾 Step 11: Database Query</strong><br>
+								<span style="color: #7f8c8d;">If needed, fetches data from database</span>
+								<span style="color: #16a085;">( প্রয়োজন হলে ডাটাবেস থেকে ডাটা সংগ্রহ করে )</span>
+							</div>
+							
+							<div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>📤 Step 12: Response</strong><br>
+								<span style="color: #7f8c8d;">HTML/JSON response sent back through internet to browser</span>
+								<span style="color: #16a085;">( HTML/JSON রেসপন্স ইন্টারনেটের মাধ্যমে ব্রাউজারে ফেরত পাঠানো হয় )</span>
+							</div>
+							
+							<div style="padding: 10px; background: #d5f4e6; border-radius: 5px; border-left: 4px solid #27ae60;">
+								<strong>✅ Final Step: Browser Rendering</strong><br>
+								<span style="color: #7f8c8d;">Browser parses HTML, applies CSS, runs JavaScript and displays the page</span>
+								<span style="color: #16a085;">( ব্রাউজার HTML পার্স করে, CSS প্রয়োগ করে, JavaScript চালায় এবং পেজ প্রদর্শন করে )</span>
+							</div>
+						</div>
+					</div>
+				</div>
+                <div class="large-12 columns" style="margin-top: 10px;">
+					<div style="background: #ecf0f1; padding: 20px; border-radius: 8px;">
+						<h6 style="color: #2c3e50; margin-top: 0;">📝 Key Features / মূল বৈশিষ্ট্য:</h6>
+						<div style="font-size: 13px; line-height: 2; color: #333;">
+							<div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>1. MVC Architecture</strong><br>
+								<span style="color: #7f8c8d;">Organizes code into Model, View, and Controller for better structure and maintainability</span>
+								<span style="color: #16a085;">( কোডকে Model, View, এবং Controller-এ ভাগ করে আরও সংগঠিত এবং রক্ষণাবেক্ষণযোগ্য বানায় )</span>
+							</div>
+							
+							<div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>2. Routing System</strong><br>
+								<span style="color: #7f8c8d;">Maps HTTP requests to controllers using clean and simple syntax</span>
+								<span style="color: #16a085;">( HTTP রিকোয়েস্টগুলোকে কন্ট্রোলারসে ম্যাপ করতে সহজ সিণ্ট্যাক্স ব্যবহার করে )</span>
+							</div>
+							
+							<div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>3. Eloquent ORM</strong><br>
+								<span style="color: #7f8c8d;">Interacts with databases using PHP objects instead of raw SQL</span>
+								<span style="color: #16a085;">( Raw SQL এর পরিবর্তে PHP অবজেক্ট ব্যবহার করে ডাটাবেসের সাথে যোগাযোগ করে) )</span>
+							</div>
+							
+							<div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>4. Blade Templating Engine</strong><br>
+								<span style="color: #7f8c8d;">Makes writing reusable and clean HTML templates easy</span>
+								<span style="color: #16a085;">পুনরায় ব্যবহারযোগ্য এবং পরিষ্কার HTML টেমপ্লেট লেখা সহজ করে</span>
+							</div>
+							
+							<div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>5. Artisan CLI</strong><br>
+								<span style="color: #7f8c8d;">Command-line tool to automate common tasks like migrations, testing, and more</span>
+								<span style="color: #16a085;">( সাধারণ কাজ যেমন মাইগ্রেশন, টেস্টিং ইত্যাদি অটোমেট করতে কমান্ড-লাইন টুল )</span>
+							</div>
+
+                            <div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>6. Migrations & Schema Builder</strong><br>
+								<span style="color: #7f8c8d;">Manages database structure changes through version-controlled migrations</span>
+								<span style="color: #16a085;">( ডাটাবেসের কাঠামো পরিবর্তনগুলি ভার্সন-কন্ট্রোল মাইগ্রেশন দ্বারা পরিচালনা করা হয় )</span>
+							</div>
+							
+							<div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>7. Authentication & Authorization</strong><br>
+								<span style="color: #7f8c8d;">Built-in system for user login, registration, and access control</span>
+								<span style="color: #16a085;">( ব্যবহারকারী লগইন, রেজিস্ট্রেশন এবং অ্যাক্সেস কন্ট্রোলের জন্য বিল্ট-ইন সিস্টেম )</span>
+							</div>
+
+
+                            <div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>8. Middleware</strong><br>
+								<span style="color: #7f8c8d;">Filters HTTP requests before they reach the controller</span>
+								<span style="color: #16a085;">( কন্ট্রোলারে পৌঁছানোর আগে HTTP রিকোয়েস্টগুলো ফিল্টার করে )</span>
+							</div>
+
+                            <div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>9. Queues & Background Jobs</strong><br>
+								<span style="color: #7f8c8d;">Manages background tasks like email sending and file processing</span>
+								<span style="color: #16a085;">( ব্যাকগ্রাউন্ড কাজ যেমন ইমেইল পাঠানো এবং ফাইল প্রক্রিয়াজাতকরণ পরিচালনা করে )</span>
+							</div>
+
+                            <div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>10. Testing</strong><br>
+								<span style="color: #7f8c8d;">Provides built-in support for automated testing of applications</span>
+								<span style="color: #16a085;">( অ্যাপ্লিকেশনের অটোমেটেড টেস্টিংয়ের জন্য বিল্ট-ইন সাপোর্ট )</span>
+							</div>
+
+                            <div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>11. Session & Caching</strong><br>
+								<span style="color: #7f8c8d;">Handles user sessions and speeds up applications through caching</span>
+								<span style="color: #16a085;">( ব্যবহারকারী সেশন পরিচালনা এবং ক্যাশিংয়ের মাধ্যমে অ্যাপ্লিকেশন গতি বৃদ্ধি করে )</span>
+							</div>
+
+                            <div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>12. RESTful Controllers</strong><br>
+								<span style="color: #7f8c8d;">Easily create RESTful APIs using controllers</span>
+								<span style="color: #16a085;">( কন্ট্রোলার ব্যবহার করে সহজে RESTful APIs তৈরি করা যায় )</span>
+							</div>
+
+                            <div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>13. Task Scheduling</strong><br>
+								<span style="color: #7f8c8d;">Allows scheduling tasks like cron jobs within Laravel</span>
+								<span style="color: #16a085;">( Laravel-এর ভিতরে ক্রন জবের মতো কাজগুলো সময়সূচি করা যায় )</span>
+							</div>
+
+                            <div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>14. File Storage</strong><br>
+								<span style="color: #7f8c8d;">Abstracts file handling with multiple drivers like S3, FTP, and more</span>
+								<span style="color: #16a085;">( S3, FTP সহ একাধিক ড্রাইভারের মাধ্যমে ফাইল পরিচালনা সহজ করে )</span>
+							</div>
+
+                            <div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>15. Security</strong><br>
+								<span style="color: #7f8c8d;">Built-in protection against SQL injection, XSS, and CSRF</span>
+								<span style="color: #16a085;">( SQL ইনজেকশন, XSS এবং CSRF এর বিরুদ্ধে বিল্ট-ইন সুরক্ষা )</span>
+							</div>
+
+                            <div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>16. Performance Optimization</strong><br>
+								<span style="color: #7f8c8d;">Faster routing and reduced overhead for better performance</span>
+								<span style="color: #16a085;">( দ্রুত রাউটিং এবং কম ওভারহেডের মাধ্যমে ভালো পারফরম্যান্স )</span>
+							</div>
+
+                            <div style="margin-bottom: 15px; padding: 10px; background: white; border-radius: 5px;">
+								<strong>17. Laravel Passport & Sanctum (API Authentication)</strong><br>
+								<span style="color: #7f8c8d;">Supports OAuth2 for API authentication (Passport) and simpler token authentication (Sanctum)</span>
+								<span style="color: #16a085;">( API অথেন্টিকেশনের জন্য OAuth2 সমর্থন (Passport) এবং সহজ টোকেন অথেন্টিকেশন (Sanctum) )</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+</div>
+		</div>
+
+</div>
+
+
+
